@@ -1,0 +1,281 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fugaz One", cursive;
+    font-weight: 400;
+}
+
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+.wrapper {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #153B50;
+}
+
+.banner  {
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 150px;
+  background: white;
+  transition: width ease .5s;
+}
+h1 {
+    color: #C95454;
+    font-size: 5em;
+    text-align: right;
+    
+    float: right;
+    margin: 0;
+}
+.logo {
+    margin-left: 34px;
+    margin-top: 10px;
+    float: left;
+    background: #16F4D0;
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    color: #C95454;
+    font-size: 1.1em;
+    font-family: "Fugaz One", cursive;
+    text-decoration: none;
+}
+
+
+
+nav {
+    color:#16F4D0;
+    font-weight: bold;
+    padding: 1em;
+    
+    font-family: "Fugaz One", cursive;
+    display: inline-block;
+    /*width: 160px;*/
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    border: outset none;
+    padding: 1em;
+    margin-bottom: 4em;
+    margin-left: 5px; 
+    font-weight: bold;
+}
+
+nav a:link { color: #153B50; }
+nav a:visited { color: #153B50; }
+nav a:hover {
+    color: #C95454;
+    border-right: 3px inset #16F4D0;
+    border-bottom: 3px inset #16F4D0;
+ }
+
+ nav ul {
+     list-style-type: none;
+     padding-left: 0;
+ }
+
+.navEmail {
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    border: outset none;
+    padding: 1em;
+    margin-top: 70px;
+    margin-bottom: 4em;
+    margin-left: 8px; 
+    font-weight: bold;
+    color:#153B50;
+    font-weight: bold;
+    padding: 1em;
+   
+    font-family: "Fugaz One", cursive;
+    
+}
+
+.navEmail:hover {
+    color: #16F4D0;
+}
+
+/*header card*/
+.header {
+    background-image: url(images/SpoonGraphics-Topographic-Map-7.png);
+    background-position: 100%;
+    margin-left: 150px;
+  
+    background-origin: content-box;
+    padding: 1.5em 12%;
+   
+    display: table;
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+/*work card*/
+.card1 {
+    border-radius: .35em;
+    height: 450px;
+    display: table;
+    
+}
+.card_full_1 {
+    width: 100%;
+    
+}
+
+.card_inner {
+    
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+}
+
+.work {
+    background: #153B50;
+    padding: 5em 0;
+}
+
+.card_color1 {
+    
+    color: #C95454;
+    background: #16F4D0;
+    background-image: url(images/devices.png);
+    background-position: right center;
+    background-origin: content-box;
+    background-repeat: no-repeat, repeat;
+    opacity: .8;
+    
+}
+.twoBlocks {
+    
+}
+/*about card*/
+.card2 {
+    background: white;
+    border-radius: .35em;
+    height: 450px;
+    display: table;
+}
+.card_full_2 {
+    width: 48%;
+}
+
+.card_inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+}
+
+.about {
+    background: #153B50;
+    padding:  0;
+}
+
+.card_color2 {
+    background: #16F4D0;
+    opacity: 60%;
+}
+
+/*youtube card*/
+.card3 {
+    background: white;
+    border-radius: 0;
+    height: 450px;
+    display: table;
+}
+.card_full_3 {
+    width: 48%;
+}
+
+.card_inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+    
+}
+
+.youtube {
+    background: #153B50;
+    padding: 5em 0;
+    
+}
+
+.card_color3 {
+    background: #16F4D0;
+    opacity: .8;
+}
+
+/*contact card*/
+.card {
+    background: white;
+    border-radius: 0;
+    height: 450px;
+    display: table;
+}
+.card_full_4 {
+    width: 100%;
+}
+
+.card_inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+    
+}
+
+.contact {
+    background: #153B50;
+    padding: 5em 0;
+}
+
+.teal {
+    background: #16F4D0;
+    opacity: 60%;
+}
+
+
+footer {
+    background-color: #C95454;
+    color: #153B50;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+}
+footer a {
+    text-decoration: none;
+}
